@@ -1,17 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@700&family=Lobster&display=swap');
+
+
+
+
 .flex-container {
     display: flex;
-    background-color: DodgerBlue;
     border: antiquewhite;
     size: 60px;
   }
 
 h1{
-    display: flex;
-    background-color: antiquewhite;
-    color:red;
     text-align: center;
+    padding-left: 0px;
+    font-family:'Fira Code', monospace;
+    font-weight: bold;
 }
 [class="header"] {
   display: flex;
-  color: blue;
+  flex-direction: column;
+  flex: auto;
+  justify-content: center;
+  align-items: center;
+  color: #65c3ba;
+  background-color: #009688;
 }
