@@ -1,6 +1,8 @@
 .flex-container {
     display: flex;
     background-color: DodgerBlue;
+    border: antiquewhite;
+    size: 60px;
   }
 
 h1{
