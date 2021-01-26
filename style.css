@@ -10,24 +10,40 @@
     size: 60px;
   }
 
-[class="header"] {
+[class="banner"] {
   display: flex;
   flex-direction: column;
   flex: auto;
   justify-content: center;
   align-items: center;
   color: #65c3ba;
-  background-color: #009688;
-background-image: url(https://github.com/ap42m/Soteria/blob/main/starynight.png);
-  background-size: cover;
+  background-image: url(../Soteria/starCreated.png);
 }
 h1{
   text-align: center;
   padding-left: 0px;
   font-family:'Fira Code', monospace;
   font-weight: bold;
+  margin-bottom: 0px;
 }
 h2 {
+  margin-top: 0px;
   font-weight: lighter;
   font-style: italic;
+}
+body{ background: rgb(5,30,62);
+  background: radial-gradient(circle, rgba(5,30,62,1) 0%, rgba(69,30,62,1) 40%, rgba(133,30,62,1) 100%); 
+
+}
+
+[class="intro"] {
+display: flex;
+align-items: left;
+flex-direction: column;
+justify-content: space-evenly;
+margin: 0mm;
+font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+[class="intro"] h2, h3 {
+  margin: 0mm;
 }
