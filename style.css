@@ -13,4 +13,5 @@ h1{
 }
 [class="header"] {
   display: flex;
+  color: blue;
 }
