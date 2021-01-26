@@ -9,4 +9,8 @@ h1{
     display: flex;
     background-color: antiquewhite;
     color:red;
+    text-align: center;
+}
+[class="header"] {
+  display: flex;
 }
