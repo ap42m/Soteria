@@ -10,12 +10,6 @@
     size: 60px;
   }
 
-h1{
-    text-align: center;
-    padding-left: 0px;
-    font-family:'Fira Code', monospace;
-    font-weight: bold;
-}
 [class="header"] {
   display: flex;
   flex-direction: column;
@@ -24,4 +18,16 @@ h1{
   align-items: center;
   color: #65c3ba;
   background-color: #009688;
+  background-image: url(../Soteria/starynight.png);
+  background-size: cover;
+}
+h1{
+  text-align: center;
+  padding-left: 0px;
+  font-family:'Fira Code', monospace;
+  font-weight: bold;
+}
+h2 {
+  font-weight: lighter;
+  font-style: italic;
 }
